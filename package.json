@@ -1,0 +1,44 @@
+{
+  "name": "create-express-js",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Erik Giovani",
+  "bin": {
+    "create-express-js": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist",
+    "node_modules"
+  ],
+  "scripts": {
+    "dev": "tsc && npx create-express-js",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikGIovani/create-express-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ErikGIovani/create-express-js/issues"
+  },
+  "homepage": "https://github.com/ErikGIovani/create-express-js#readme",
+  "dependencies": {
+    "cross-spawn": "7.0.3",
+    "kolorist": "1.7.0",
+    "minimist": "1.2.8",
+    "prompts": "2.4.2"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "6.0.2",
+    "@types/minimist": "1.2.2",
+    "@types/prompts": "2.4.4",
+    "typescript": "5.0.4"
+  }
+}
