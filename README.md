@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="15%" src="./logo.png" alt="Create Express JS">
+  <img width="15%" src="https://raw.githubusercontent.com/ErikGIovani/create-express-js/f83f88b354e6a0a842879dea28b5e71d1241a73d/logo.png?token=GHSAT0AAAAAACFNHOVCY3GERSANBCPYJAFKZHEJD3Q" alt="Create Express JS">
   <h1>Create Express JS</h1>
 
 **The express project generator**
